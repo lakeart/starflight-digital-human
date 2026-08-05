@@ -1,3 +1,28 @@
-flask>=3.0.0
-flask-cors>=4.0.0
-requests>=2.31.0
+# StarFlight Backend Dependencies
+# ================================
+# Core
+flask>=3.0,<3.1
+flask-cors>=5.0,<5.1
+requests>=2.32,<3.0
+
+# LangChain RAG Pipeline
+langchain>=0.3.0,<0.4
+langchain-community>=0.3.0,<0.4
+langchain-openai>=0.2.0,<0.3
+langchain-core>=0.3.0,<0.4
+
+# Vector Store
+faiss-cpu>=1.8.0,<2.0
+
+# OpenAI SDK (required by langchain-openai)
+openai>=1.0.0,<2.0
+
+# --------------------------------------------------
+# Optional: Local Embedding (requires PyTorch + VC++ Runtime)
+# Uncomment if local embedding is preferred:
+#   sentence-transformers>=3.0.0,<4.0
+#   torch>=2.0.0
+# Then set EMBEDDING_PROVIDER=local in .env
+# --------------------------------------------------
+# Total: ~10 packages, ~120 MB disk
+# Cloud embedding: zero local model download

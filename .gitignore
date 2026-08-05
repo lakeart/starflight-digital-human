@@ -26,10 +26,16 @@ Thumbs.db
 __pycache__/
 *.py[cod]
 *.egg-info/
+.venv/
+venv/
+
+# RAG Vector Store (generated locally)
+memory/faiss_index/
 
 # Database
 *.db
 *.sqlite
+memory/conversations.db
 
 # Logs
 logs/
