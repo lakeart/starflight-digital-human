@@ -1,0 +1,51 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# External tools (install separately)
+external/
+
+# AI models (download separately)
+models/
+*.onnx
+*.pb
+*.pt
+*.pth
+
+# Large binary assets
+*.mp4
+*.zip
+*.pptx

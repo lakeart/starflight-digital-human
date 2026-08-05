@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS digital_humans (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name VARCHAR(120) NOT NULL,
+  model_type VARCHAR(40),
+  model_url VARCHAR(500),
+  avatar_url VARCHAR(500),
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
