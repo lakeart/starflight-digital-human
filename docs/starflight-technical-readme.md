@@ -161,3 +161,4 @@ Repository: [github.com/lakeart/starflight-digital-human](https://github.com/lak
 | **Gitee 标签** | `数字人` `大模型` `知识库` `3D` `React` `Python` |
 | **建议置顶** | ❌ 否 |
 | **许可证** | MIT |
+| **作品集** | [计算机作品集总入口](https://github.com/Lakeart/computer-science-portfolio) |
